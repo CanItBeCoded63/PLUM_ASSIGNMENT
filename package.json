@@ -1,0 +1,12 @@
+{
+  "name": "opd-claim-adjudication-system",
+  "version": "1.0.0",
+  "description": "AI-powered OPD insurance claim adjudication system",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install && npm run build",
+    "start": "node backend/dist/server.js"
+  }
+}

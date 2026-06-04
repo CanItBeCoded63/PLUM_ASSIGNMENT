@@ -1,0 +1,16 @@
+Hospital/Clinic Name: City Health Care Clinic
+GST No: GST123456789
+Date: 2024-11-01
+Bill No: BILL100234
+
+Patient Details:
+Name: Rajesh Kumar
+Ref. By: Dr. Sharma
+
+PARTICULARS               AMOUNT
+--------------------------------
+Consultation Fee          1000
+Diagnostic Tests          500
+--------------------------------
+TOTAL:                    1500
+Payment Mode: UPI

@@ -1,0 +1,27 @@
+Clinic Name: City Health Care Clinic
+Dr. Sharma, MBBS MD
+Reg. No: KA/45678/2015
+Address: Bangalore, Karnataka
+Date: 2024-11-01
+
+Patient Name: Rajesh Kumar
+Age/Sex: 35/Male
+
+Chief Complaints:
+- Viral fever
+
+Diagnosis:
+Viral fever
+
+Rx:
+1. Tab. Paracetamol 650mg
+   1-0-1 x 5 days
+2. Vitamin C
+   0-1-0 x 5 days
+
+Investigations Advised:
+- CBC
+- Dengue test
+
+Signed,
+Dr. Sharma

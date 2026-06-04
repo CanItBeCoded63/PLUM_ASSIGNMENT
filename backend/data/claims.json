@@ -1,0 +1,894 @@
+{
+  "claims": [
+    {
+      "id": "CLM_6BBBA988",
+      "member_id": "EMP003",
+      "member_name": "Amit Verma",
+      "treatment_date": "2024-11-01",
+      "claim_amount": 1500,
+      "submission_date": "2024-11-01",
+      "created_at": "2026-06-04T15:57:57.445Z",
+      "decision": "APPROVED",
+      "approved_amount": 1350,
+      "rejection_reasons": "[]",
+      "confidence_score": 0.92,
+      "notes": "Claim approved. Deductions applied: copay"
+    },
+    {
+      "id": "CLM_CB62F9FA",
+      "member_id": "EMP002",
+      "member_name": "Priya Singh",
+      "treatment_date": "2024-11-01",
+      "claim_amount": 1500,
+      "submission_date": "2024-11-01",
+      "created_at": "2026-06-04T14:45:04.029Z",
+      "decision": "APPROVED",
+      "approved_amount": 1350,
+      "rejection_reasons": "[]",
+      "confidence_score": 0.92,
+      "notes": "Claim approved. Deductions applied: copay"
+    },
+    {
+      "id": "CLM_ED6F5323",
+      "member_id": "EMP001",
+      "member_name": "Rajesh Kumar",
+      "treatment_date": "2024-11-01",
+      "claim_amount": 1500,
+      "submission_date": "2024-11-01",
+      "created_at": "2026-06-04T14:16:06.001Z",
+      "decision": "APPROVED",
+      "approved_amount": 1350,
+      "rejection_reasons": "[]",
+      "confidence_score": 0.65,
+      "notes": "Senior reviewer confirmed valid prescription – approved with standard copay."
+    },
+    {
+      "id": "CLM_0BEAAD2A",
+      "member_id": "EMP001",
+      "member_name": "Rajesh Kumar",
+      "treatment_date": "2024-11-01",
+      "claim_amount": 1500,
+      "submission_date": "2026-06-04",
+      "created_at": "2026-06-04T13:15:57.544Z",
+      "decision": "REJECTED",
+      "approved_amount": 0,
+      "rejection_reasons": "[\"MANUAL_REJECTION\"]",
+      "confidence_score": 0.98,
+      "notes": "no please thank you "
+    },
+    {
+      "id": "CLM_460BBBA6",
+      "member_id": "EMP001",
+      "member_name": "Rajesh Kumar",
+      "treatment_date": "2024-11-01",
+      "claim_amount": 1500,
+      "submission_date": "2026-06-04",
+      "created_at": "2026-06-04T10:04:29.406Z",
+      "decision": "REJECTED",
+      "approved_amount": 0,
+      "rejection_reasons": "[\"LATE_SUBMISSION\"]",
+      "confidence_score": 0.98,
+      "notes": "Claim submitted 580 days after treatment. Must be submitted within 30 days of treatment date."
+    },
+    {
+      "id": "CLM_B9DBBBF2",
+      "member_id": "EMP001",
+      "member_name": "Rajesh Kumar",
+      "treatment_date": "2024-11-01",
+      "claim_amount": 1500,
+      "submission_date": "2026-06-04",
+      "created_at": "2026-06-04T06:47:54.221Z",
+      "decision": "APPROVED",
+      "approved_amount": 1500,
+      "rejection_reasons": "[]",
+      "confidence_score": 0.85,
+      "notes": "okay cool"
+    }
+  ],
+  "members": [
+    {
+      "member_id": "EMP001",
+      "member_name": "Rajesh Kumar",
+      "policy_id": "PLUM_OPD_2024",
+      "join_date": "2024-01-01",
+      "policy_status": "active",
+      "annual_claims_ytd": 0
+    },
+    {
+      "member_id": "EMP002",
+      "member_name": "Priya Singh",
+      "policy_id": "PLUM_OPD_2024",
+      "join_date": "2024-01-01",
+      "policy_status": "active",
+      "annual_claims_ytd": 1350
+    },
+    {
+      "member_id": "EMP003",
+      "member_name": "Amit Verma",
+      "policy_id": "PLUM_OPD_2024",
+      "join_date": "2024-01-01",
+      "policy_status": "active",
+      "annual_claims_ytd": 1350
+    },
+    {
+      "member_id": "EMP004",
+      "member_name": "Sneha Reddy",
+      "policy_id": "PLUM_OPD_2024",
+      "join_date": "2024-01-01",
+      "policy_status": "active",
+      "annual_claims_ytd": 0
+    },
+    {
+      "member_id": "EMP005",
+      "member_name": "Vikram Joshi",
+      "policy_id": "PLUM_OPD_2024",
+      "join_date": "2024-09-01",
+      "policy_status": "active",
+      "annual_claims_ytd": 0
+    },
+    {
+      "member_id": "EMP006",
+      "member_name": "Kavita Nair",
+      "policy_id": "PLUM_OPD_2024",
+      "join_date": "2024-01-01",
+      "policy_status": "active",
+      "annual_claims_ytd": 0
+    },
+    {
+      "member_id": "EMP007",
+      "member_name": "Suresh Patil",
+      "policy_id": "PLUM_OPD_2024",
+      "join_date": "2024-01-01",
+      "policy_status": "active",
+      "annual_claims_ytd": 0
+    },
+    {
+      "member_id": "EMP008",
+      "member_name": "Ravi Menon",
+      "policy_id": "PLUM_OPD_2024",
+      "join_date": "2024-01-01",
+      "policy_status": "active",
+      "annual_claims_ytd": 0
+    },
+    {
+      "member_id": "EMP009",
+      "member_name": "Anita Desai",
+      "policy_id": "PLUM_OPD_2024",
+      "join_date": "2024-01-01",
+      "policy_status": "active",
+      "annual_claims_ytd": 0
+    },
+    {
+      "member_id": "EMP010",
+      "member_name": "Deepak Shah",
+      "policy_id": "PLUM_OPD_2024",
+      "join_date": "2024-01-01",
+      "policy_status": "active",
+      "annual_claims_ytd": 0
+    }
+  ],
+  "claim_documents": [
+    {
+      "id": 1,
+      "claim_id": "CLM_B9DBBBF2",
+      "document_type": "bill",
+      "file_path": "uploads\\documents-1780555674214-5503589.txt",
+      "extracted_text": "Hospital/Clinic Name: City Health Care Clinic\nGST No: GST123456789\nDate: 2024-11-01\nBill No: BILL100234\n\nPatient Details:\nName: Rajesh Kumar\nRef. By: Dr. Sharma\n\nPARTICULARS               AMOUNT\n--------------------------------\nConsultation Fee          1000\nDiagnostic Tests          500\n--------------------------------\nTOTAL:                    1500\nPayment Mode: UPI\n",
+      "created_at": "2026-06-04T06:47:54.224Z"
+    },
+    {
+      "id": 2,
+      "claim_id": "CLM_B9DBBBF2",
+      "document_type": "prescription",
+      "file_path": "uploads\\documents-1780555674215-249953993.txt",
+      "extracted_text": "Clinic Name: City Health Care Clinic\nDr. Sharma, MBBS MD\nReg. No: KA/45678/2015\nAddress: Bangalore, Karnataka\nDate: 2024-11-01\n\nPatient Name: Rajesh Kumar\nAge/Sex: 35/Male\n\nChief Complaints:\n- Viral fever\n\nDiagnosis:\nViral fever\n\nRx:\n1. Tab. Paracetamol 650mg\n   1-0-1 x 5 days\n2. Vitamin C\n   0-1-0 x 5 days\n\nInvestigations Advised:\n- CBC\n- Dengue test\n\nSigned,\nDr. Sharma\n",
+      "created_at": "2026-06-04T06:47:54.226Z"
+    },
+    {
+      "id": 3,
+      "claim_id": "CLM_460BBBA6",
+      "document_type": "bill",
+      "file_path": "uploads\\documents-1780567469386-684254738.txt",
+      "extracted_text": "Hospital/Clinic Name: City Health Care Clinic\nGST No: GST123456789\nDate: 2024-11-01\nBill No: BILL100234\n\nPatient Details:\nName: Rajesh Kumar\nRef. By: Dr. Sharma\n\nPARTICULARS               AMOUNT\n--------------------------------\nConsultation Fee          1000\nDiagnostic Tests          500\n--------------------------------\nTOTAL:                    1500\nPayment Mode: UPI\n",
+      "created_at": "2026-06-04T10:04:29.414Z"
+    },
+    {
+      "id": 4,
+      "claim_id": "CLM_460BBBA6",
+      "document_type": "prescription",
+      "file_path": "uploads\\documents-1780567469388-722006694.txt",
+      "extracted_text": "Clinic Name: City Health Care Clinic\nDr. Sharma, MBBS MD\nReg. No: KA/45678/2015\nAddress: Bangalore, Karnataka\nDate: 2024-11-01\n\nPatient Name: Rajesh Kumar\nAge/Sex: 35/Male\n\nChief Complaints:\n- Viral fever\n\nDiagnosis:\nViral fever\n\nRx:\n1. Tab. Paracetamol 650mg\n   1-0-1 x 5 days\n2. Vitamin C\n   0-1-0 x 5 days\n\nInvestigations Advised:\n- CBC\n- Dengue test\n\nSigned,\nDr. Sharma\n",
+      "created_at": "2026-06-04T10:04:29.416Z"
+    },
+    {
+      "id": 5,
+      "claim_id": "CLM_0BEAAD2A",
+      "document_type": "bill",
+      "file_path": "uploads\\documents-1780578957540-200651198.txt",
+      "extracted_text": "Hospital/Clinic Name: City Health Care Clinic\nGST No: GST123456789\nDate: 2024-11-01\nBill No: BILL100234\n\nPatient Details:\nName: Rajesh Kumar\nRef. By: Dr. Sharma\n\nPARTICULARS               AMOUNT\n--------------------------------\nConsultation Fee          1000\nDiagnostic Tests          500\n--------------------------------\nTOTAL:                    1500\nPayment Mode: UPI\n",
+      "created_at": "2026-06-04T13:15:57.547Z"
+    },
+    {
+      "id": 6,
+      "claim_id": "CLM_0BEAAD2A",
+      "document_type": "prescription",
+      "file_path": "uploads\\documents-1780578957540-701193723.txt",
+      "extracted_text": "Clinic Name: City Health Care Clinic\nDr. Sharma, MBBS MD\nReg. No: KA/45678/2015\nAddress: Bangalore, Karnataka\nDate: 2024-11-01\n\nPatient Name: Rajesh Kumar\nAge/Sex: 35/Male\n\nChief Complaints:\n- Viral fever\n\nDiagnosis:\nViral fever\n\nRx:\n1. Tab. Paracetamol 650mg\n   1-0-1 x 5 days\n2. Vitamin C\n   0-1-0 x 5 days\n\nInvestigations Advised:\n- CBC\n- Dengue test\n\nSigned,\nDr. Sharma\n",
+      "created_at": "2026-06-04T13:15:57.548Z"
+    },
+    {
+      "id": 7,
+      "claim_id": "CLM_ED6F5323",
+      "document_type": "bill",
+      "file_path": "uploads\\documents-1780582565981-665490105.txt",
+      "extracted_text": "Hospital/Clinic Name: City Health Care Clinic\nGST No: GST123456789\nDate: 2024-11-01\nBill No: BILL100234\n\nPatient Details:\nName: Rajesh Kumar\nRef. By: Dr. Sharma\n\nPARTICULARS               AMOUNT\n--------------------------------\nConsultation Fee          1000\nDiagnostic Tests          500\n--------------------------------\nTOTAL:                    1500\nPayment Mode: UPI\n",
+      "created_at": "2026-06-04T14:16:06.006Z"
+    },
+    {
+      "id": 8,
+      "claim_id": "CLM_ED6F5323",
+      "document_type": "prescription",
+      "file_path": "uploads\\documents-1780582565982-545447303.txt",
+      "extracted_text": "Clinic Name: City Health Care Clinic\nDr. Sharma, MBBS MD\nReg. No: KA/45678/2015\nAddress: Bangalore, Karnataka\nDate: 2024-11-01\n\nPatient Name: Rajesh Kumar\nAge/Sex: 35/Male\n\nChief Complaints:\n- Viral fever\n\nDiagnosis:\nViral fever\n\nRx:\n1. Tab. Paracetamol 650mg\n   1-0-1 x 5 days\n2. Vitamin C\n   0-1-0 x 5 days\n\nInvestigations Advised:\n- CBC\n- Dengue test\n\nSigned,\nDr. Sharma\n",
+      "created_at": "2026-06-04T14:16:06.008Z"
+    },
+    {
+      "id": 9,
+      "claim_id": "CLM_CB62F9FA",
+      "document_type": "prescription",
+      "file_path": "uploads\\documents-1780584304013-690490433.txt",
+      "extracted_text": "Clinic Name: City Health Care Clinic\nDr. Sharma, MBBS MD\nReg. No: KA/45678/2015\nAddress: Bangalore, Karnataka\nDate: 2024-11-01\n\nPatient Name: Rajesh Kumar\nAge/Sex: 35/Male\n\nChief Complaints:\n- Viral fever\n\nDiagnosis:\nViral fever\n\nRx:\n1. Tab. Paracetamol 650mg\n   1-0-1 x 5 days\n2. Vitamin C\n   0-1-0 x 5 days\n\nInvestigations Advised:\n- CBC\n- Dengue test\n\nSigned,\nDr. Sharma\n",
+      "created_at": "2026-06-04T14:45:04.039Z"
+    },
+    {
+      "id": 10,
+      "claim_id": "CLM_CB62F9FA",
+      "document_type": "bill",
+      "file_path": "uploads\\documents-1780584304020-642603710.txt",
+      "extracted_text": "Hospital/Clinic Name: City Health Care Clinic\nGST No: GST123456789\nDate: 2024-11-01\nBill No: BILL100234\n\nPatient Details:\nName: Rajesh Kumar\nRef. By: Dr. Sharma\n\nPARTICULARS               AMOUNT\n--------------------------------\nConsultation Fee          1000\nDiagnostic Tests          500\n--------------------------------\nTOTAL:                    1500\nPayment Mode: UPI\n",
+      "created_at": "2026-06-04T14:45:04.042Z"
+    },
+    {
+      "id": 11,
+      "claim_id": "CLM_6BBBA988",
+      "document_type": "prescription",
+      "file_path": "uploads\\documents-1780588677436-115627419.txt",
+      "extracted_text": "Clinic Name: City Health Care Clinic\nDr. Sharma, MBBS MD\nReg. No: KA/45678/2015\nAddress: Bangalore, Karnataka\nDate: 2024-11-01\n\nPatient Name: Rajesh Kumar\nAge/Sex: 35/Male\n\nChief Complaints:\n- Viral fever\n\nDiagnosis:\nViral fever\n\nRx:\n1. Tab. Paracetamol 650mg\n   1-0-1 x 5 days\n2. Vitamin C\n   0-1-0 x 5 days\n\nInvestigations Advised:\n- CBC\n- Dengue test\n\nSigned,\nDr. Sharma\n",
+      "created_at": "2026-06-04T15:57:57.448Z"
+    },
+    {
+      "id": 12,
+      "claim_id": "CLM_6BBBA988",
+      "document_type": "bill",
+      "file_path": "uploads\\documents-1780588677438-294054639.txt",
+      "extracted_text": "Hospital/Clinic Name: City Health Care Clinic\nGST No: GST123456789\nDate: 2024-11-01\nBill No: BILL100234\n\nPatient Details:\nName: Rajesh Kumar\nRef. By: Dr. Sharma\n\nPARTICULARS               AMOUNT\n--------------------------------\nConsultation Fee          1000\nDiagnostic Tests          500\n--------------------------------\nTOTAL:                    1500\nPayment Mode: UPI\n",
+      "created_at": "2026-06-04T15:57:57.450Z"
+    }
+  ],
+  "extracted_data": [
+    {
+      "id": 1,
+      "claim_id": "CLM_B9DBBBF2",
+      "field_name": "doctor_name",
+      "field_value": "Dr. Sharma",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T06:48:48.595Z"
+    },
+    {
+      "id": 2,
+      "claim_id": "CLM_B9DBBBF2",
+      "field_name": "doctor_reg",
+      "field_value": "KA/45678/2015",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T06:48:48.596Z"
+    },
+    {
+      "id": 3,
+      "claim_id": "CLM_B9DBBBF2",
+      "field_name": "diagnosis",
+      "field_value": "Viral fever",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T06:48:48.599Z"
+    },
+    {
+      "id": 4,
+      "claim_id": "CLM_B9DBBBF2",
+      "field_name": "medicines_prescribed",
+      "field_value": "[\"Tab. Also date format DD. Paracetamol 650mg 1-0-1 x 5 days\",\"Vitamin C 0-1-0 x 5 days\"]",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T06:48:48.600Z"
+    },
+    {
+      "id": 5,
+      "claim_id": "CLM_B9DBBBF2",
+      "field_name": "tests_prescribed",
+      "field_value": "[\"CBC\",\"Dengue test\"]",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T06:48:48.601Z"
+    },
+    {
+      "id": 6,
+      "claim_id": "CLM_B9DBBBF2",
+      "field_name": "treatment",
+      "field_value": "1. Tab. Paracetamol 650mg 1-0-1 x 5 days 2. Vitamin C 0-1-0 x 5 days",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T06:48:48.602Z"
+    },
+    {
+      "id": 7,
+      "claim_id": "CLM_B9DBBBF2",
+      "field_name": "date",
+      "field_value": "01-11-2024",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T06:48:48.603Z"
+    },
+    {
+      "id": 8,
+      "claim_id": "CLM_B9DBBBF2",
+      "field_name": "consultation_fee",
+      "field_value": "1000",
+      "source_document": "bill",
+      "created_at": "2026-06-04T06:48:48.605Z"
+    },
+    {
+      "id": 9,
+      "claim_id": "CLM_B9DBBBF2",
+      "field_name": "diagnostic_tests",
+      "field_value": "500",
+      "source_document": "bill",
+      "created_at": "2026-06-04T06:48:48.605Z"
+    },
+    {
+      "id": 10,
+      "claim_id": "CLM_B9DBBBF2",
+      "field_name": "total_amount",
+      "field_value": "1500",
+      "source_document": "bill",
+      "created_at": "2026-06-04T06:48:48.606Z"
+    },
+    {
+      "id": 11,
+      "claim_id": "CLM_B9DBBBF2",
+      "field_name": "hospital_name",
+      "field_value": "City Health Care Clinic",
+      "source_document": "bill",
+      "created_at": "2026-06-04T06:48:48.607Z"
+    },
+    {
+      "id": 12,
+      "claim_id": "CLM_B9DBBBF2",
+      "field_name": "bill_number",
+      "field_value": "BILL100234",
+      "source_document": "bill",
+      "created_at": "2026-06-04T06:48:48.608Z"
+    },
+    {
+      "id": 13,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "doctor_name",
+      "field_value": "Dr. Sharma, MBBS MD",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T10:06:47.376Z"
+    },
+    {
+      "id": 14,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "doctor_reg",
+      "field_value": "KA/45678/2015",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T10:06:47.378Z"
+    },
+    {
+      "id": 15,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "diagnosis",
+      "field_value": "Viral fever",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T10:06:47.379Z"
+    },
+    {
+      "id": 16,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "medicines_prescribed",
+      "field_value": "[\"Tab. Paracetamol 650mg\",\"Vitamin C\"]",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T10:06:47.381Z"
+    },
+    {
+      "id": 17,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "tests_prescribed",
+      "field_value": "[\"CBC\",\"Dengue test\"]",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T10:06:47.382Z"
+    },
+    {
+      "id": 18,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "date",
+      "field_value": "2024-11-01",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T10:06:47.384Z"
+    },
+    {
+      "id": 19,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "consultation_fee",
+      "field_value": "1000",
+      "source_document": "bill",
+      "created_at": "2026-06-04T10:06:47.386Z"
+    },
+    {
+      "id": 20,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "diagnostic_tests",
+      "field_value": "500",
+      "source_document": "bill",
+      "created_at": "2026-06-04T10:06:47.387Z"
+    },
+    {
+      "id": 21,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "test_names",
+      "field_value": "[\"Consultation Fee\",\"Diagnostic Tests\"]",
+      "source_document": "bill",
+      "created_at": "2026-06-04T10:06:47.389Z"
+    },
+    {
+      "id": 22,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "medicines",
+      "field_value": "123456789",
+      "source_document": "bill",
+      "created_at": "2026-06-04T10:06:47.391Z"
+    },
+    {
+      "id": 23,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "procedures",
+      "field_value": "{}",
+      "source_document": "bill",
+      "created_at": "2026-06-04T10:06:47.393Z"
+    },
+    {
+      "id": 24,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "total_amount",
+      "field_value": "1500",
+      "source_document": "bill",
+      "created_at": "2026-06-04T10:06:47.394Z"
+    },
+    {
+      "id": 25,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "hospital_name",
+      "field_value": "City Health Care Clinic",
+      "source_document": "bill",
+      "created_at": "2026-06-04T10:06:47.395Z"
+    },
+    {
+      "id": 26,
+      "claim_id": "CLM_460BBBA6",
+      "field_name": "bill_number",
+      "field_value": "BILL100234",
+      "source_document": "bill",
+      "created_at": "2026-06-04T10:06:47.398Z"
+    },
+    {
+      "id": 27,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "doctor_name",
+      "field_value": "Dr. Sharma",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T13:16:15.472Z"
+    },
+    {
+      "id": 28,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "doctor_reg",
+      "field_value": "KA/45678/2015",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T13:16:15.473Z"
+    },
+    {
+      "id": 29,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "diagnosis",
+      "field_value": "Viral fever",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T13:16:15.473Z"
+    },
+    {
+      "id": 30,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "medicines_prescribed",
+      "field_value": "[\"Tab. Paracetamol 650mg\",\"Vitamin C\"]",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T13:16:15.474Z"
+    },
+    {
+      "id": 31,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "tests_prescribed",
+      "field_value": "[\"CBC\",\"Dengue test\"]",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T13:16:15.474Z"
+    },
+    {
+      "id": 32,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "date",
+      "field_value": "2024-11-01",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T13:16:15.475Z"
+    },
+    {
+      "id": 33,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "consultation_fee",
+      "field_value": "1000",
+      "source_document": "bill",
+      "created_at": "2026-06-04T13:16:15.475Z"
+    },
+    {
+      "id": 34,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "diagnostic_tests",
+      "field_value": "500",
+      "source_document": "bill",
+      "created_at": "2026-06-04T13:16:15.475Z"
+    },
+    {
+      "id": 35,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "test_names",
+      "field_value": "[]",
+      "source_document": "bill",
+      "created_at": "2026-06-04T13:16:15.476Z"
+    },
+    {
+      "id": 36,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "procedures",
+      "field_value": "{}",
+      "source_document": "bill",
+      "created_at": "2026-06-04T13:16:15.476Z"
+    },
+    {
+      "id": 37,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "total_amount",
+      "field_value": "1500",
+      "source_document": "bill",
+      "created_at": "2026-06-04T13:16:15.476Z"
+    },
+    {
+      "id": 38,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "hospital_name",
+      "field_value": "City Health Care Clinic",
+      "source_document": "bill",
+      "created_at": "2026-06-04T13:16:15.477Z"
+    },
+    {
+      "id": 39,
+      "claim_id": "CLM_0BEAAD2A",
+      "field_name": "bill_number",
+      "field_value": "BILL100234",
+      "source_document": "bill",
+      "created_at": "2026-06-04T13:16:15.477Z"
+    },
+    {
+      "id": 40,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "doctor_name",
+      "field_value": "Dr. Sharma",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T14:16:28.444Z"
+    },
+    {
+      "id": 41,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "doctor_reg",
+      "field_value": "KA/45678/2015",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T14:16:28.446Z"
+    },
+    {
+      "id": 42,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "diagnosis",
+      "field_value": "Viral fever",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T14:16:28.447Z"
+    },
+    {
+      "id": 43,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "medicines_prescribed",
+      "field_value": "[\"Paracetamol 650mg\",\"Vitamin C\"]",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T14:16:28.448Z"
+    },
+    {
+      "id": 44,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "tests_prescribed",
+      "field_value": "[\"CBC\",\"Dengue test\"]",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T14:16:28.449Z"
+    },
+    {
+      "id": 45,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "date",
+      "field_value": "2024-11-01",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T14:16:28.450Z"
+    },
+    {
+      "id": 46,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "consultation_fee",
+      "field_value": "1000",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:16:28.451Z"
+    },
+    {
+      "id": 47,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "diagnostic_tests",
+      "field_value": "500",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:16:28.452Z"
+    },
+    {
+      "id": 48,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "test_names",
+      "field_value": "[]",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:16:28.453Z"
+    },
+    {
+      "id": 49,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "procedures",
+      "field_value": "{}",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:16:28.454Z"
+    },
+    {
+      "id": 50,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "total_amount",
+      "field_value": "1500",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:16:28.455Z"
+    },
+    {
+      "id": 51,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "hospital_name",
+      "field_value": "City Health Care Clinic",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:16:28.456Z"
+    },
+    {
+      "id": 52,
+      "claim_id": "CLM_ED6F5323",
+      "field_name": "bill_number",
+      "field_value": "BILL100234",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:16:28.457Z"
+    },
+    {
+      "id": 53,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "doctor_name",
+      "field_value": "Dr. Sharma",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T14:45:17.680Z"
+    },
+    {
+      "id": 54,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "doctor_reg",
+      "field_value": "KA/45678/2015",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T14:45:17.682Z"
+    },
+    {
+      "id": 55,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "diagnosis",
+      "field_value": "Viral fever",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T14:45:17.683Z"
+    },
+    {
+      "id": 56,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "medicines_prescribed",
+      "field_value": "[\"Tab. Paracetamol 650mg\",\"Vitamin C\"]",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T14:45:17.685Z"
+    },
+    {
+      "id": 57,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "tests_prescribed",
+      "field_value": "[\"CBC\",\"Dengue test\"]",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T14:45:17.687Z"
+    },
+    {
+      "id": 58,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "date",
+      "field_value": "2024-11-01",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T14:45:17.689Z"
+    },
+    {
+      "id": 59,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "consultation_fee",
+      "field_value": "1000",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:45:17.692Z"
+    },
+    {
+      "id": 60,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "diagnostic_tests",
+      "field_value": "500",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:45:17.694Z"
+    },
+    {
+      "id": 61,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "test_names",
+      "field_value": "[]",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:45:17.696Z"
+    },
+    {
+      "id": 62,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "procedures",
+      "field_value": "{}",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:45:17.698Z"
+    },
+    {
+      "id": 63,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "total_amount",
+      "field_value": "1500",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:45:17.730Z"
+    },
+    {
+      "id": 64,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "hospital_name",
+      "field_value": "City Health Care Clinic",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:45:17.731Z"
+    },
+    {
+      "id": 65,
+      "claim_id": "CLM_CB62F9FA",
+      "field_name": "bill_number",
+      "field_value": "BILL100234",
+      "source_document": "bill",
+      "created_at": "2026-06-04T14:45:17.734Z"
+    },
+    {
+      "id": 66,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "doctor_name",
+      "field_value": "Dr. Sharma",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T15:58:53.807Z"
+    },
+    {
+      "id": 67,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "doctor_reg",
+      "field_value": "KA/45678/2015",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T15:58:53.809Z"
+    },
+    {
+      "id": 68,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "diagnosis",
+      "field_value": "Viral fever",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T15:58:53.811Z"
+    },
+    {
+      "id": 69,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "medicines_prescribed",
+      "field_value": "[\"Paracetamol 650mg\",\"Vitamin C\"]",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T15:58:53.812Z"
+    },
+    {
+      "id": 70,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "tests_prescribed",
+      "field_value": "[\"CBC\",\"Dengue test\"]",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T15:58:53.814Z"
+    },
+    {
+      "id": 71,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "date",
+      "field_value": "2024-11-01",
+      "source_document": "prescription",
+      "created_at": "2026-06-04T15:58:53.816Z"
+    },
+    {
+      "id": 72,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "consultation_fee",
+      "field_value": "1000",
+      "source_document": "bill",
+      "created_at": "2026-06-04T15:58:53.818Z"
+    },
+    {
+      "id": 73,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "diagnostic_tests",
+      "field_value": "500",
+      "source_document": "bill",
+      "created_at": "2026-06-04T15:58:53.819Z"
+    },
+    {
+      "id": 74,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "test_names",
+      "field_value": "[]",
+      "source_document": "bill",
+      "created_at": "2026-06-04T15:58:53.820Z"
+    },
+    {
+      "id": 75,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "procedures",
+      "field_value": "{}",
+      "source_document": "bill",
+      "created_at": "2026-06-04T15:58:53.822Z"
+    },
+    {
+      "id": 76,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "total_amount",
+      "field_value": "1500",
+      "source_document": "bill",
+      "created_at": "2026-06-04T15:58:53.824Z"
+    },
+    {
+      "id": 77,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "hospital_name",
+      "field_value": "City Health Care Clinic",
+      "source_document": "bill",
+      "created_at": "2026-06-04T15:58:53.827Z"
+    },
+    {
+      "id": 78,
+      "claim_id": "CLM_6BBBA988",
+      "field_name": "bill_number",
+      "field_value": "BILL100234",
+      "source_document": "bill",
+      "created_at": "2026-06-04T15:58:53.829Z"
+    }
+  ]
+}
