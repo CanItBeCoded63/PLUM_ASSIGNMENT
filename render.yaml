@@ -1,9 +1,9 @@
 services:
   - type: web
     name: opd-claim-system
-    runtime: node
+    env: node
     plan: free
-    buildCommand: npm install && cd frontend && npm install --production=false && npm run build && cd ../backend && npm install && npm run build
+    buildCommand: npm install && cd frontend && npm install --include=dev && npm run build && cd ../backend && npm install --include=dev && npm run build
     startCommand: node backend/dist/server.js
     healthCheckPath: /health
     envVars:
