@@ -2,6 +2,12 @@
 
 An AI-powered web application that automates the adjudication (approval/rejection) of Outpatient Department (OPD) insurance claims.
 
+## 🚀 Quick Deploy
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/CanItBeCoded63/PLUM_ASSIGNMENT)
+
+**Live Demo:** Coming soon after deployment!
+
 ## 🚀 Features
 
 - **Document Processing**: Upload and process medical documents (bills, prescriptions) using OCR

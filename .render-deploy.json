@@ -1,0 +1,36 @@
+{
+  "services": [
+    {
+      "type": "web",
+      "name": "opd-claim-system",
+      "runtime": "node",
+      "plan": "free",
+      "branch": "main",
+      "buildCommand": "npm install && cd frontend && npm install && npm run build && cd ../backend && npm install && npm run build",
+      "startCommand": "node backend/dist/server.js",
+      "healthCheckPath": "/health",
+      "envVars": [
+        {
+          "key": "NODE_ENV",
+          "value": "production"
+        },
+        {
+          "key": "PORT",
+          "value": "10000"
+        },
+        {
+          "key": "CORS_ORIGIN",
+          "value": "*"
+        },
+        {
+          "key": "OPENAI_API_KEY",
+          "generateValue": false
+        },
+        {
+          "key": "OPENAI_BASE_URL",
+          "value": "https://openrouter.ai/api/v1"
+        }
+      ]
+    }
+  ]
+}
