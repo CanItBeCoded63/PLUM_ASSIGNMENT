@@ -3,12 +3,14 @@ services:
     name: opd-claim-system
     env: node
     plan: free
-    buildCommand: npm install && cd frontend && npm install --include=dev && npm run build && cd ../backend && npm install --include=dev && npm run build
+    buildCommand: npm install && cd frontend && npm install --production=false && npm run build && cd ../backend && npm install --production=false && npm run build
     startCommand: node backend/dist/server.js
     healthCheckPath: /health
     envVars:
       - key: NODE_ENV
         value: production
+      - key: npm_config_production
+        value: "false"
       - key: PORT
         value: 10000
       - key: CORS_ORIGIN
