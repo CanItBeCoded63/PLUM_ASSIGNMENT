@@ -1,9 +1,11 @@
 import { Request, Response } from 'express';
 import { v4 as uuidv4 } from 'uuid';
+import fs from 'fs';
 import db from '../config/database';
 import documentProcessor from '../services/documentProcessor';
 import aiService from '../services/aiService';
 import adjudicationEngine from '../services/adjudicationEngine';
+import cloudinaryService from '../services/cloudinaryService';
 import { Claim } from '../models/types';
 
 export class ClaimController {
@@ -81,12 +83,24 @@ export class ClaimController {
             }
           }
 
+          // Upload to Cloudinary first
+          console.log(`Uploading ${file.originalname} to Cloudinary...`);
+          const cloudinaryUrl = await cloudinaryService.uploadFile(file.path);
+          console.log(`Uploaded ${file.originalname} successfully. URL: ${cloudinaryUrl}`);
+
           // Store document
           const insertDoc = db.prepare(`
             INSERT INTO claim_documents (claim_id, document_type, file_path, extracted_text)
             VALUES (?, ?, ?, ?)
           `);
-          insertDoc.run(claimId, docType, file.path, extractedText);
+          insertDoc.run(claimId, docType, cloudinaryUrl, extractedText);
+
+          // Delete temporary local file
+          try {
+            fs.unlinkSync(file.path);
+          } catch (unlinkErr) {
+            console.error(`Failed to delete temporary local file: ${file.path}`, unlinkErr);
+          }
 
           if (docType === 'prescription') prescriptionText = extractedText;
           if (docType === 'bill') billText = extractedText;
