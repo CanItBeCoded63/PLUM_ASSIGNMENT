@@ -74,7 +74,6 @@ export const policyConfig = {
     "Infertility treatments",
     "Experimental treatments",
     "Self-inflicted injuries",
-    "Adventure sports injuries",
     "War and nuclear risks",
     "HIV/AIDS treatment",
     "Alcoholism/drug abuse treatment",
