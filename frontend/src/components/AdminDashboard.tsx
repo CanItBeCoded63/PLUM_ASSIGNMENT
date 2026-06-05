@@ -288,7 +288,7 @@ export const AdminDashboard: React.FC = () => {
       {/* Policy Exclusions row */}
       <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
         <h3 className="text-base font-semibold text-white mb-4 flex items-center gap-2">
-          <Ban className="h-5 w-5 text-red-400" /> Exclusions Exclusions Reference List
+          <Ban className="h-5 w-5 text-red-400" /> Exclusions Reference List
         </h3>
         <div className="flex flex-wrap gap-2">
           {policy.exclusions.map(ex => (

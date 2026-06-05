@@ -21,6 +21,30 @@ An AI-powered web application that automates the adjudication (approval/rejectio
 - **Decision Flowchart**: Interactive decision pipeline flowchart embedded in the UI
 - **User-Friendly Interface**: Modern glassmorphic UI built with React and Tailwind CSS
 
+## 🖥️ Page Walkthroughs
+
+The application consists of the following key interfaces:
+
+1. **Metrics Dashboard (Analytics)**
+   - **Purpose**: Provides real-time metrics and charts on claims performance.
+   - **Key Features**: Live status widgets showing Total Claims, Approval Rate, Total Claimed Amount, Total Approved Amount, Claims Savings, and charts visualizing claim distributions.
+
+2. **Submit Claim Form (Member Portal)**
+   - **Purpose**: The patient-facing portal where members submit claims.
+   - **Key Features**: Member selection dropdown (mocking auth), date/amount inputs, and a drag-and-drop document uploader. Results are displayed instantly in a card, detailing co-pays, excluded items, and structured medical data extracted by the AI.
+
+3. **Claims History / Queue List**
+   - **Purpose**: A tabular overview of all historical and active claims.
+   - **Key Features**: Live filtering by member ID, status tracking (Approved, Rejected, Under Review, Appealed), and direct access to Cloudinary-stored documents.
+
+4. **Admin Dashboard (Manual Review & Appeals)**
+   - **Purpose**: The back-office interface for claim adjusters.
+   - **Key Features**: Real-time queue of claims flagged as `MANUAL_REVIEW` or `APPEALED`. Allows admins to review AI findings, inspect the Cloudinary documents, and perform manual overrides (approvals, custom payouts, or rejections with notes).
+
+5. **Rules Flowchart**
+   - **Purpose**: A visual diagram explaining the core adjudication logic.
+   - **Key Features**: Step-by-step visual of the validation pipeline, showing how rules check patient eligibility, waiting periods, coverage limit caps, exclusions, and co-payment calculations.
+
 ## 🏗️ Architecture
 
 ### Technology Stack
