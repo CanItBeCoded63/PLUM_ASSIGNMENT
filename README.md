@@ -2,11 +2,7 @@
 
 An AI-powered web application that automates the adjudication (approval/rejection) of Outpatient Department (OPD) insurance claims.
 
-## 🚀 Quick Deploy
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/CanItBeCoded63/PLUM_ASSIGNMENT)
-
-**Live Demo:** Coming soon after deployment!
+**Live Demo:** https://plum-assignment-test.onrender.com/
 
 ## 🚀 Features
 
@@ -324,6 +320,5 @@ Created for Plum AI Automation Engineer Intern Assignment
 ## 📄 License
 
 MIT License - Feel free to use this for learning purposes
-#   P L U M _ A S S I G N M E N T 
- 
- 
+# PLUM_ASSIGNMENT
+
