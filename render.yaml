@@ -19,3 +19,10 @@ services:
         sync: false
       - key: OPENAI_BASE_URL
         value: https://openrouter.ai/api/v1
+      - key: CLOUDINARY_CLOUD_NAME
+        value: dj8s3ripy
+      - key: CLOUDINARY_API_KEY
+        value: "911475344471319"
+      - key: CLOUDINARY_API_SECRET
+        value: 91RYOt65sZS0OqokbiyZbLkh7cw
+
